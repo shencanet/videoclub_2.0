@@ -1,5 +1,4 @@
 
-Userroutes · JS
 const router = require('express').Router();
 const userController = require('../controllers/UserController')
 const isAdmin = require('../middlewares/isAdmin');
